@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "info.craigpayne.common", "info.craigpayne.common\info.craigpayne.common.csproj", "{323C540A-DCD2-402F-A6B6-8E2352A55497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "info.craigpayne.common.tests", "info.craigpayne.common.tests\info.craigpayne.common.tests.csproj", "{8AC8721F-F94C-4017-A9D6-26BAF29E223B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assemblies", "Assemblies", "{A45E276E-B631-4055-8035-66A7A2FCC446}"
+	ProjectSection(SolutionItems) = preProject
+		Assemblies\Castle.DynamicProxy.dll = Assemblies\Castle.DynamicProxy.dll
+		Assemblies\PicoContainer.dll = Assemblies\PicoContainer.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{323C540A-DCD2-402F-A6B6-8E2352A55497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323C540A-DCD2-402F-A6B6-8E2352A55497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323C540A-DCD2-402F-A6B6-8E2352A55497}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{323C540A-DCD2-402F-A6B6-8E2352A55497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323C540A-DCD2-402F-A6B6-8E2352A55497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC8721F-F94C-4017-A9D6-26BAF29E223B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC8721F-F94C-4017-A9D6-26BAF29E223B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC8721F-F94C-4017-A9D6-26BAF29E223B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC8721F-F94C-4017-A9D6-26BAF29E223B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
